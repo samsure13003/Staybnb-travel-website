@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staybnb</title>
+    <link rel="stylesheet" href="second.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b0d94359da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="second.html"><img src="staybnb/images/logo-red.png" class="logo"></a>
+        <ul class="nav-links">
+            <li><a href="second.html">Popular Places</a></li>
+            <li><a href="#">Travel Outside</a></li>
+            <li><a href="#">Online Packages</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="container">
+        <div class="box">
+            <span class="borderline"></span>
+            <form>
+                <h2>Regestration</h2>
+                <div class="inputbox">
+                    <input type="text" required="required">
+                    <span>Username</span>
+                    <i></i>
+                </div>
+                <div class="inputbox">
+                    <input type="password" required="required">
+                    <span>Password</span>
+                    <i></i>
+                </div>
+                <div class="links">
+                    <a href="#">Forgot Password</a>
+                    <a href="#">Signup</a>
+                </div>
+                <button class="hhy">Login</button>
+            </form> 
+        </div>
+
+        <div class="footer">
+            <h3>Stay Connected</h3>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright @ 2024 by Samsure Rahman</p>
+        </div>
+    </div>
+    <script>
+        var navBar=document.getElementById("navBar");
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+</html>
